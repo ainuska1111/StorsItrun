@@ -1,0 +1,42 @@
+
+
+package kg.chinodev.storesitrun.network.models
+
+data class HomeListItem(
+    val BrandId: Int,
+    val bullet1: String,
+    val bullet2: String,
+    val bullet3: String,
+    val bullet4: String,
+    val bullet5: String,
+    val datenew: String,
+    val datepost: String,
+    val discountPercent: String,
+    val discountPrice: Float,
+    val globalCategoryId: Int,
+    val id: Int,
+    val imageUrl: String,
+    val keyWords: String,
+    val localCatLevel1: Int,
+    val localCatLevel2: Int,
+    val minQty: Int,
+    val name: String,
+    val nameShort: String,
+    val price: Float,
+    val qty: Int,
+    val rating: Int,
+    val sampleProductId: Int,
+    val sellQty: Float,
+    val seoUrl: String,
+    val shortDescription: String,
+    val status: Int,
+    val storeAddress: String,
+    val storeId: Int,
+    val storeInstagram: String,
+    val storeMail: String,
+    val storeName: String,
+    val storePhone: String,
+    val storeSite: String,
+    val storeWorkTime: String,
+    val syncSampleProductId: Boolean
+)
